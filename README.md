@@ -1,6 +1,12 @@
 # ProjectAtelier
 HR2202 FEC Project
 
+## Motivations and Story
+Given a business document with client specifications on how their product page should be interacted with, we set on building out the client to spec. 
+
+Integrated their product API into our front end, displaying all relevant data that was required according to the business document. 
+
+
 ## Fork this into your own github and clone to your local machine. 
 
 ## Instructions for how to deploy the webpage:
