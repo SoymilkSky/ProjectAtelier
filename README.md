@@ -1,15 +1,115 @@
-# ProjectAtelier
-HR2202 FEC Project
+# Project Atelier
 
-## Motivations and Story
-Given a business document with client specifications on how their product page should be interacted with, we set on building out the client to spec. 
+<div align="center" width="100%">
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
+  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+</div>
 
-Integrated their product API into our front end, displaying all relevant data that was required according to the business document. 
+<h4 align="center">A modern reimagining of an eCommerce products page.</h4>
 
+## Motivation and Story
+Tasked by a client to recreate their products page to be more in line with modern design ideas, we took on the task and created a brand new user interface for their website. 
 
-## Fork this into your own github and clone to your local machine. 
+All components in this repo have been written from scratch using React and Styled Components
+
+## Features
+
+### Landing Page
+<img src="https://i.imgur.com/8L0a1vb.gif" />
+
+Built by <a href=https://github.com/genewongs>Gene Wong</a>
+
+<b>Features</b>
+- Responsive button on hover that leads the user to a products page
+
+### Product Overview
+Gallery/Styles             |  Add to Cart
+:-------------------------:|:-------------------------:
+![gallery and styles](https://i.imgur.com/56JtGSx.gif)  |  ![add to cart](https://i.imgur.com/q4YhjjP.gif)
+
+Built by <a href=https://github.com/genewongs>Gene Wong</a>
+
+<b>Features</b>
+- Image gallery carousel with the ability to zoom and expand the photo
+- Styles Selector dynamically lists out styles based on the item
+- Size Selector dynamically fills out based on product
+- Add to cart feature
+- Share to social media buttons
+
+### Related Items & Your Outfit
+<img src="https://i.imgur.com/tlsAQ0E.gif" />
+
+Built by <a href=https://github.com/bootdme>David Estephanian</a>
+
+<b>Features</b>
+
+- Related items that dynamically generated based on the item currently being viewed
+- If an item is clicked on, a modal will appear with a comparison of the features of the current item and the item selected
+- A 'Your Outfit' section which allows you to save the currently viewed item into a list that persists while traversing the site
+
+### Questions & Answers
+<img src="https://i.imgur.com/Oeg24x4.gif" />
+
+Built by <a href=https://github.com/ElliotLandon>Elliot Landon</a>
+
+<b>Features</b>
+- Questions will load two at a time
+- Loads more answers to each question
+- The ability to search through all loaded questions
+- Adding a question
+- Adding an answer to an already existing question
+
+### Ratings & Reviews
+<img src="https://i.imgur.com/JZ5Df6M.gif" />
+
+Built by <a href=https://github.com/SoymilkSky>Danny Wong</a>
+  
+<b>Features</b>
+- Reviews load two at a time
+- Searching the reviews allows for the ability to search by keyword
+- Sorting reviews by the star rating
+- Sorting by Helpfulness, Newest, Relevance
+- The ability to Add a new review as well as upload review photos by utilizing the Cloudinary API
+- All portions are dynamically generated based on the current product being viewed
+
+## Code Styles
+This project follows the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
+
+## Tech Stack
+**Built with**
+- [React](https://reactjs.org/)
+- [Webpack](https://webpack.js.org/)
+- [Jest](https://jestjs.io/docs/getting-started)
+- [Node](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [AWS](https://aws.amazon.com/)
+
+## Contributors
+**Gene Wong (Product Overview)**
+
+[![Linkedin: LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/caleb-kim0510/)](https://www.linkedin.com/in/genehwong/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/cariboukim)](https://github.com/genewongs) 
+
+**David Estephanian (Related Products)**
+
+[![Linkedin: LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/caleb-kim0510/)](https://www.linkedin.com/in/david-estephanian-738039160/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/cariboukim)](https://github.com/bootdme) 
+
+**Elliot Landon (Questions & Answers)**
+
+[![Linkedin: LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/caleb-kim0510/)](https://www.linkedin.com/in/elliot-landon/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/cariboukim)](https://github.com/ElliotLandon) 
+
+**Danny Wong (Ratings & Reviews)**
+
+[![Linkedin: LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/caleb-kim0510/)](https://www.linkedin.com/in/danny96wong/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/cariboukim)](https://github.com/SoymilkSky) 
 
 ## Instructions for how to deploy the webpage:
+
+Fork this repo into your local machine and do the following.
 
 Create a .env file and copy over the example.env contents
   
